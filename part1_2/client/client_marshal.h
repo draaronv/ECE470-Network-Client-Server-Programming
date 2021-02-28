@@ -1,5 +1,5 @@
 #ifndef _CLIENT_MARSHAL_H_
-#define _CLIENT_MARSHAL_H
+#define _CLIENT_MARSHAL_H_
 #include <iostream>
 #include <string>
 #include <stdio.h>
