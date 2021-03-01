@@ -4,7 +4,12 @@ using namespace std;
 int main()
 {
 client test;
-test.send_message("Hello world");
+string temp="follow";
+while (temp!="end")
+{
+temp=test.receive_message();
+cout<<temp<<endl;
+}
 test.closing_all();
 return 0;
 }
