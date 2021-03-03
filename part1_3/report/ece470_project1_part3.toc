@@ -10,13 +10,25 @@
 \contentsline {subsection}{\numberline {4.4}Application Protocol Design}{7}{subsection.4.4}
 \contentsline {section}{\numberline {5}Example}{8}{section.5}
 \contentsline {section}{\numberline {6}Data model}{8}{section.6}
-\contentsline {section}{\numberline {7}Message Protocol}{10}{section.7}
-\contentsline {subsection}{\numberline {7.1}Client}{10}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}Header file}{10}{subsubsection.7.1.1}
+\contentsline {section}{\numberline {7}Message Protocol}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}Client Marshal}{9}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Header file}{9}{subsubsection.7.1.1}
 \contentsline {subsubsection}{\numberline {7.1.2}Test File}{12}{subsubsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Makefile}{13}{subsubsection.7.1.3}
-\contentsline {subsection}{\numberline {7.2}Results}{14}{subsection.7.2}
-\contentsline {section}{\numberline {8}Server Marshal}{14}{section.8}
-\contentsline {subsection}{\numberline {8.1}Header File}{14}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Test program}{14}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Makefile}{14}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {7.1.3}Makefile}{12}{subsubsection.7.1.3}
+\contentsline {subsection}{\numberline {7.2}Results}{13}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Server Marshal}{13}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Header File}{13}{subsubsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.2}Test program}{15}{subsubsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3}Makefile}{15}{subsubsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.4}Result}{16}{subsubsection.7.3.4}
+\contentsline {section}{\numberline {8}TCP Protocols}{16}{section.8}
+\contentsline {subsection}{\numberline {8.1}Client}{16}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Header File}{16}{subsubsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.2}Test Program}{20}{subsubsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.3}Makefile}{21}{subsubsection.8.1.3}
+\contentsline {subsubsection}{\numberline {8.1.4}Results}{21}{subsubsection.8.1.4}
+\contentsline {subsection}{\numberline {8.2}Client}{21}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Header File}{21}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2}Test Program}{21}{subsubsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.3}Makefile}{22}{subsubsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.4}Results}{23}{subsubsection.8.2.4}

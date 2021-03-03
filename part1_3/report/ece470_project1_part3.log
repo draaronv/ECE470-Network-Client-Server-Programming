@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.24)  2 MAR 2021 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.24)  2 MAR 2021 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,6 +385,11 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+(/usr/share/texlive/texmf-dist/tex/latex/lstaddons/lstautogobble.sty
+Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
+ings'
+\lstag@spacecount=\count133
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -404,18 +409,18 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
-\c_max_int=\count133
-\l_tmpa_int=\count134
-\l_tmpb_int=\count135
-\g_tmpa_int=\count136
-\g_tmpb_int=\count137
-\g__intarray_font_int=\count138
-\g__prg_map_int=\count139
-\c_log_iow=\count140
-\l_iow_line_count_int=\count141
-\l__iow_line_target_int=\count142
-\l__iow_one_indent_int=\count143
-\l__iow_indent_int=\count144
+\c_max_int=\count134
+\l_tmpa_int=\count135
+\l_tmpb_int=\count136
+\g_tmpa_int=\count137
+\g_tmpb_int=\count138
+\g__intarray_font_int=\count139
+\g__prg_map_int=\count140
+\c_log_iow=\count141
+\l_iow_line_count_int=\count142
+\l__iow_line_target_int=\count143
+\l__iow_one_indent_int=\count144
+\l__iow_indent_int=\count145
 \c_zero_dim=\dimen134
 \c_max_dim=\dimen135
 \l_tmpa_dim=\dimen136
@@ -434,77 +439,77 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count145
-\c__fp_leading_shift_int=\count146
-\c__fp_middle_shift_int=\count147
-\c__fp_trailing_shift_int=\count148
-\c__fp_big_leading_shift_int=\count149
-\c__fp_big_middle_shift_int=\count150
-\c__fp_big_trailing_shift_int=\count151
-\c__fp_Bigg_leading_shift_int=\count152
-\c__fp_Bigg_middle_shift_int=\count153
-\c__fp_Bigg_trailing_shift_int=\count154
-\c__fp_rand_size_int=\count155
-\c__fp_rand_four_int=\count156
-\c__fp_rand_eight_int=\count157
-\l__sort_length_int=\count158
-\l__sort_min_int=\count159
-\l__sort_top_int=\count160
-\l__sort_max_int=\count161
-\l__sort_true_max_int=\count162
-\l__sort_block_int=\count163
-\l__sort_begin_int=\count164
-\l__sort_end_int=\count165
-\l__sort_A_int=\count166
-\l__sort_B_int=\count167
-\l__sort_C_int=\count168
-\l__tl_build_start_index_int=\count169
-\l__tl_build_index_int=\count170
-\l__tl_analysis_normal_int=\count171
-\l__tl_analysis_index_int=\count172
-\l__tl_analysis_nesting_int=\count173
-\l__tl_analysis_type_int=\count174
-\l__regex_internal_a_int=\count175
-\l__regex_internal_b_int=\count176
-\l__regex_internal_c_int=\count177
-\l__regex_balance_int=\count178
-\l__regex_group_level_int=\count179
-\l__regex_mode_int=\count180
-\c__regex_cs_in_class_mode_int=\count181
-\c__regex_cs_mode_int=\count182
-\l__regex_catcodes_int=\count183
-\l__regex_default_catcodes_int=\count184
-\c__regex_catcode_D_int=\count185
-\c__regex_catcode_S_int=\count186
-\c__regex_catcode_L_int=\count187
-\c__regex_catcode_O_int=\count188
-\c__regex_catcode_A_int=\count189
-\c__regex_all_catcodes_int=\count190
-\l__regex_show_lines_int=\count191
-\l__regex_min_state_int=\count192
-\l__regex_max_state_int=\count193
-\l__regex_left_state_int=\count194
-\l__regex_right_state_int=\count195
-\l__regex_capturing_group_int=\count196
-\l__regex_min_pos_int=\count197
-\l__regex_max_pos_int=\count198
-\l__regex_curr_pos_int=\count199
-\l__regex_start_pos_int=\count266
-\l__regex_success_pos_int=\count267
-\l__regex_curr_char_int=\count268
-\l__regex_curr_catcode_int=\count269
-\l__regex_last_char_int=\count270
-\l__regex_case_changed_char_int=\count271
-\l__regex_curr_state_int=\count272
-\l__regex_step_int=\count273
-\l__regex_min_active_int=\count274
-\l__regex_max_active_int=\count275
-\l__regex_replacement_csnames_int=\count276
-\l__regex_match_count_int=\count277
-\l__regex_min_submatch_int=\count278
-\l__regex_submatch_int=\count279
-\l__regex_zeroth_submatch_int=\count280
-\g__regex_trace_regex_int=\count281
+\l_keys_choice_int=\count146
+\c__fp_leading_shift_int=\count147
+\c__fp_middle_shift_int=\count148
+\c__fp_trailing_shift_int=\count149
+\c__fp_big_leading_shift_int=\count150
+\c__fp_big_middle_shift_int=\count151
+\c__fp_big_trailing_shift_int=\count152
+\c__fp_Bigg_leading_shift_int=\count153
+\c__fp_Bigg_middle_shift_int=\count154
+\c__fp_Bigg_trailing_shift_int=\count155
+\c__fp_rand_size_int=\count156
+\c__fp_rand_four_int=\count157
+\c__fp_rand_eight_int=\count158
+\l__sort_length_int=\count159
+\l__sort_min_int=\count160
+\l__sort_top_int=\count161
+\l__sort_max_int=\count162
+\l__sort_true_max_int=\count163
+\l__sort_block_int=\count164
+\l__sort_begin_int=\count165
+\l__sort_end_int=\count166
+\l__sort_A_int=\count167
+\l__sort_B_int=\count168
+\l__sort_C_int=\count169
+\l__tl_build_start_index_int=\count170
+\l__tl_build_index_int=\count171
+\l__tl_analysis_normal_int=\count172
+\l__tl_analysis_index_int=\count173
+\l__tl_analysis_nesting_int=\count174
+\l__tl_analysis_type_int=\count175
+\l__regex_internal_a_int=\count176
+\l__regex_internal_b_int=\count177
+\l__regex_internal_c_int=\count178
+\l__regex_balance_int=\count179
+\l__regex_group_level_int=\count180
+\l__regex_mode_int=\count181
+\c__regex_cs_in_class_mode_int=\count182
+\c__regex_cs_mode_int=\count183
+\l__regex_catcodes_int=\count184
+\l__regex_default_catcodes_int=\count185
+\c__regex_catcode_D_int=\count186
+\c__regex_catcode_S_int=\count187
+\c__regex_catcode_L_int=\count188
+\c__regex_catcode_O_int=\count189
+\c__regex_catcode_A_int=\count190
+\c__regex_all_catcodes_int=\count191
+\l__regex_show_lines_int=\count192
+\l__regex_min_state_int=\count193
+\l__regex_max_state_int=\count194
+\l__regex_left_state_int=\count195
+\l__regex_right_state_int=\count196
+\l__regex_capturing_group_int=\count197
+\l__regex_min_pos_int=\count198
+\l__regex_max_pos_int=\count199
+\l__regex_curr_pos_int=\count266
+\l__regex_start_pos_int=\count267
+\l__regex_success_pos_int=\count268
+\l__regex_curr_char_int=\count269
+\l__regex_curr_catcode_int=\count270
+\l__regex_last_char_int=\count271
+\l__regex_case_changed_char_int=\count272
+\l__regex_curr_state_int=\count273
+\l__regex_step_int=\count274
+\l__regex_min_active_int=\count275
+\l__regex_max_active_int=\count276
+\l__regex_replacement_csnames_int=\count277
+\l__regex_match_count_int=\count278
+\l__regex_min_submatch_int=\count279
+\l__regex_submatch_int=\count280
+\l__regex_zeroth_submatch_int=\count281
+\g__regex_trace_regex_int=\count282
 \c_empty_box=\box34
 \l_tmpa_box=\box35
 \l_tmpb_box=\box36
@@ -548,15 +553,15 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count282
+\l__driver_color_stack_int=\count283
 \l__driver_tmp_box=\box49
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count283
-\g__xparse_grabber_int=\count284
-\l__xparse_m_args_int=\count285
-\l__xparse_mandatory_args_int=\count286
-\l__xparse_v_nesting_int=\count287
+\l__xparse_current_arg_int=\count284
+\g__xparse_grabber_int=\count285
+\l__xparse_m_args_int=\count286
+\l__xparse_mandatory_args_int=\count287
+\l__xparse_v_nesting_int=\count288
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1506,9 +1511,9 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 .................................................
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count288
-\Gm@cntv=\count289
-\c@Gm@tempcnt=\count290
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
 \Gm@bindingoffset=\dimen165
 \Gm@wd@mp=\dimen166
 \Gm@odd@mp=\dimen167
@@ -1521,14 +1526,14 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count291
+\c@tracingmulticols=\count292
 \mult@box=\box50
 \multicol@leftmargin=\dimen173
-\c@unbalance=\count292
-\c@collectmore=\count293
-\doublecol@number=\count294
-\multicoltolerance=\count295
-\multicolpretolerance=\count296
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
 \full@width=\dimen174
 \page@free=\dimen175
 \premulticols=\dimen176
@@ -1559,14 +1564,14 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box71
 \@tempa=\box72
 \@tempa=\box73
-\c@columnbadness=\count297
-\c@finalcolumnbadness=\count298
+\c@columnbadness=\count298
+\c@finalcolumnbadness=\count299
 \last@try=\dimen179
 \multicolovershoot=\dimen180
 \multicolundershoot=\dimen181
 \mult@nat@firstbox=\box74
 \colbreak@box=\box75
-\mc@col@check@num=\count299
+\mc@col@check@num=\count300
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -1586,6 +1591,15 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip66
 \droptitle=\skip67
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -1593,37 +1607,41 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
-) (./ece470_project1_part3.aux)
+) (./ece470_project1_part3.aux
+
+LaTeX Warning: Label `fig:screenshot-from-2021-03-02-22-17-39' multiply defined
+.
+
+)
 \openout1 = `ece470_project1_part3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 \AtBeginShipoutBox=\box77
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
+\scratchcounter=\count301
 \scratchdimen=\dimen187
 \scratchbox=\box78
-\nofMPsegments=\count301
-\nofMParguments=\count302
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count303
+\MPscratchCnt=\count304
 \MPscratchDim=\dimen188
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1650,7 +1668,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \microtypecontext on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 44.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1665,7 +1683,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1673,17 +1691,17 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./ece470_project1_part3.out) (./ece470_project1_part3.out)
 \@outlinefile=\write3
 \openout3 = `ece470_project1_part3.out'.
 
-\c@lstlisting=\count307
+\c@lstlisting=\count308
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1719,14 +1737,14 @@ LaTeX Info: Redefining \nameref on input line 39.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1743,94 +1761,147 @@ oc)
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
  [3
 
 ]
-<data_model.jpg, id=133, 963.6pt x 722.7pt>
+<data_model.jpg, id=194, 963.6pt x 722.7pt>
 File: data_model.jpg Graphic file (type jpg)
 <use data_model.jpg>
-Package pdftex.def Info: data_model.jpg  used on input line 96.
+Package pdftex.def Info: data_model.jpg  used on input line 101.
 (pdftex.def)             Requested size: 481.79883pt x 361.3491pt.
  [4 <./data_model.jpg>]
-<StoryBoard.jpeg, id=139, 1111.2717pt x 580.3281pt>
+<StoryBoard.jpeg, id=200, 1111.2717pt x 580.3281pt>
 File: StoryBoard.jpeg Graphic file (type jpg)
 <use StoryBoard.jpeg>
-Package pdftex.def Info: StoryBoard.jpeg  used on input line 111.
+Package pdftex.def Info: StoryBoard.jpeg  used on input line 116.
 (pdftex.def)             Requested size: 555.63449pt x 290.16333pt.
 
-Overfull \hbox (49.74449pt too wide) in paragraph at lines 111--112
+Overfull \hbox (49.74449pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-<server_state_diagram.jpeg, id=140, 795.2109pt x 1167.8832pt>
+<server_state_diagram.jpeg, id=201, 795.2109pt x 1167.8832pt>
 File: server_state_diagram.jpeg Graphic file (type jpg)
 <use server_state_diagram.jpeg>
-Package pdftex.def Info: server_state_diagram.jpeg  used on input line 120.
+Package pdftex.def Info: server_state_diagram.jpeg  used on input line 125.
 (pdftex.def)             Requested size: 397.60448pt x 583.94017pt.
 [5 <./StoryBoard.jpeg>] [6 <./server_state_diagram.jpeg>]
-<Client_State_Diagram.jpeg, id=150, 523.9575pt x 497.6994pt>
+<Client_State_Diagram.jpeg, id=211, 523.9575pt x 497.6994pt>
 File: Client_State_Diagram.jpeg Graphic file (type jpg)
 <use Client_State_Diagram.jpeg>
-Package pdftex.def Info: Client_State_Diagram.jpeg  used on input line 127.
+Package pdftex.def Info: Client_State_Diagram.jpeg  used on input line 132.
 (pdftex.def)             Requested size: 261.9781pt x 248.84909pt.
-<Examples.jpeg, id=151, 632.3625pt x 564.6696pt>
+<Examples.jpeg, id=212, 632.3625pt x 564.6696pt>
 File: Examples.jpeg Graphic file (type jpg)
 <use Examples.jpeg>
-Package pdftex.def Info: Examples.jpeg  used on input line 156.
+Package pdftex.def Info: Examples.jpeg  used on input line 161.
 (pdftex.def)             Requested size: 316.18048pt x 282.3341pt.
  [7 <./Client_State_Diagram.jpeg>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [8 <./Examples.jpeg>] [9] [10] [11] [12]
-<"../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png, id=40
-2, 898.35625pt x 635.37375pt>
+ [8 <./Examples.jpeg>] [9] [10] [11]
+<"../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png, id=43
+4, 898.35625pt x 635.37375pt>
 File: "../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png G
 raphic file (type png)
 <use "../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png>
 Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
--02 21-02-45".png  used on input line 424.
+-02 21-02-45".png  used on input line 429.
 (pdftex.def)             Requested size: 449.17702pt x 317.6861pt.
- [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
- [14 <../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
+ [12] [13 <../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45.pn
+g>] [14] [15]
+<"../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png, id=64
+5, 1142.2675pt x 645.41125pt>
+File: "../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png G
+raphic file (type png)
+<use "../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png>
+Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
+-02 21-20-31".png  used on input line 589.
+(pdftex.def)             Requested size: 456.89891pt x 258.15993pt.
+ [16 <../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31.png>] [
+17] [18] [19]
+[20]
+<"../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39".png, id=92
+7, 673.51625pt x 192.72pt>
+File: "../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39".png G
+raphic file (type png)
+<use "../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39".png>
+Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
+-02 22-17-39".png  used on input line 865.
+(pdftex.def)             Requested size: 336.7573pt x 96.35976pt.
+<"../../../../../../../Pictures/Screenshot from 2021-03-02 22-59-09".png, id=92
+8, 857.2025pt x 129.48375pt>
+File: "../../../../../../../Pictures/Screenshot from 2021-03-02 22-59-09".png G
+raphic file (type png)
+<use "../../../../../../../Pictures/Screenshot from 2021-03-02 22-59-09".png>
+Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
+-02 22-59-09".png  used on input line 871.
+(pdftex.def)             Requested size: 428.6002pt x 64.7417pt.
+ [21 <../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39.png> <.
+./../../../../../../Pictures/Screenshot from 2021-03-02 22-59-09.png>]
+File: "../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39".png G
+raphic file (type png)
+<use "../../../../../../../Pictures/Screenshot from 2021-03-02 22-17-39".png>
+Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
+-02 22-17-39".png  used on input line 945.
+(pdftex.def)             Requested size: 336.7573pt x 96.35976pt.
+<"../../../../../../../Pictures/Screenshot from 2021-03-02 22-58-51".png, id=95
+1, 1054.94125pt x 158.5925pt>
+File: "../../../../../../../Pictures/Screenshot from 2021-03-02 22-58-51".png G
+raphic file (type png)
+<use "../../../../../../../Pictures/Screenshot from 2021-03-02 22-58-51".png>
+Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
+-02 22-58-51".png  used on input line 951.
+(pdftex.def)             Requested size: 527.46935pt x 79.29604pt.
 
-(./ece470_project1_part3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
+Overfull \hbox (21.57935pt too wide) in paragraph at lines 951--952
+ [][] 
+ []
+
+[22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 955.
+ [23 <../../../../../../../Pictures/Screenshot from 2021-03-02 22-58-51.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 955.
+ (./ece470_project1_part3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 955.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 955.
 Package rerunfilecheck Info: File `ece470_project1_part3.out' has not changed.
-(rerunfilecheck)             Checksum: 9DBC778A2F2EC3FF7B47020775793E89;1308.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
+(rerunfilecheck)             Checksum: E8A75C5AF496319A4A6047D51903CE85;2143.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 955.
  ) 
 Here is how much of TeX's memory you used:
- 21061 strings out of 492982
- 362123 string characters out of 6134896
- 620688 words of memory out of 5000000
- 24092 multiletter control sequences out of 15000+600000
- 539678 words of font info for 70 fonts, out of 8000000 for 9000
+ 22142 strings out of 492982
+ 378479 string characters out of 6134896
+ 617295 words of memory out of 5000000
+ 24679 multiletter control sequences out of 15000+600000
+ 539329 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,39p,10433b,1700s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,58p,10433b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt9.pfb>
-Output written on ece470_project1_part3.pdf (14 pages, 1350431 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt8.pfb>
+Output written on ece470_project1_part3.pdf (23 pages, 1478976 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 296 named destinations out of 1000 (max. 500000)
- 11471 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 1204 PDF objects out of 1440 (max. 8388607)
+ 1149 compressed objects within 12 object streams
+ 777 named destinations out of 1000 (max. 500000)
+ 9539 words of extra memory for PDF output out of 10000 (max. 10000000)
 
