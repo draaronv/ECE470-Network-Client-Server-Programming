@@ -7,7 +7,6 @@
 #include <sstream>
 #include <vector>
 using namespace std;
-
 class server_message
 {
     public:

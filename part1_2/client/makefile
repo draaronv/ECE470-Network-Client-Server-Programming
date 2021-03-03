@@ -20,7 +20,6 @@ test_server: server server.cpp server_marshal.h
 	@./server "END" "Ending Connection" "2" " 1. Option 1 " " 2. Option 2 "
 	@./server "LIST" "This are the options" "3" " 1. Option 1 " " 2. Option 2 " " 3. Option 3 "
 	@./server "LIST" "This are the options" "2" " 1. Option 1 " " 2. Option 2 "
-	@./server "LIST" "This are the options" "2" " 1. Option 1 "
 
 
 
