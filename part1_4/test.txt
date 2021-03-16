@@ -1,7 +1,4 @@
 
-
-
-
 send_message()
 receive_message()
 
