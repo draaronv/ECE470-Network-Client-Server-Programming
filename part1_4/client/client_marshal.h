@@ -14,7 +14,7 @@ class server_message
         string message;
         vector<string> lines;
         int num_lines;
-        void printing()
+        void printingDebug()
         {
             cout<<options<<"    "<<num_lines<<"     "<<message<<endl;
             for(unsigned int i=0;i<lines.size();i++)
@@ -22,6 +22,15 @@ class server_message
                 cout<<lines[i]<<endl;
             }
             
+        }
+        void printing()
+        {
+            cout<<message<<endl;
+            for(unsigned int i=0;i<lines.size();i++)
+            {
+                cout<<lines[i]<<endl;
+            }
+
         }
 };
 

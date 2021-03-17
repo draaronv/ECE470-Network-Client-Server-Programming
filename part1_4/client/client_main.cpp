@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    string userInput;
     //Start Client
     client test;
     test.initialize_client();
@@ -22,11 +23,17 @@ int main()
         //Receive message
         recMessage=test.receive_message();
         server_message servMessage;
-        //
+        //Unmarshall the message
         servMessage=unmarshal(recMessage);
-        //
+        //Print the Message
         servMessage.printing();
-
+        if(servMessage.options=="END")
+        {
+            break;
+        }
+        //Ask the user for input
+        cout<<"Please enter only integer values"<<endl;
+        cin>>userInput;
     }
     test.closeSockets();
     return 0;
