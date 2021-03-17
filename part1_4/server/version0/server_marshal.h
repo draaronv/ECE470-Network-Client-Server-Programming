@@ -47,6 +47,7 @@ struct samples_serverMessage
     };
 };
 
+
 client_message unmarshal(string message)
 {
     string command;
@@ -66,20 +67,21 @@ string result;
 string c[5]={"USER","PASS","LIST","ERROR","END"};
 if(sm.command == c[0])
 {
-    ss<<sm.command<<" "<<sm.messa<<"\\";
+    ss<<sm.command<<" "<<sm.messa<<" ";
 }
 else if(sm.command == c[1])
 {
-    ss<<sm.command<<" "<<sm.messa<<"\\";
+    ss<<sm.command<<" "<<sm.messa<<" ";
 }
 else if(sm.command == c[2])
 {
-    ss<<sm.command<<" "<<sm.num_lines<<" "<<sm.messa<<"\\";
-    for(int i=0;i<sm.num_lines;i++)
+    ss<<sm.command<<" "<<sm.messa<<" "<<"\\"<<" "<<sm.num_lines;
+    for(int i=0;i<sm.num_lines-1;i++)
     {
-        ss<<sm.lines[i]<<"\\";
+        ss<<" "<<sm.lines[i]<<" "<<"\\";
     }
-    ss<<"\\\\";
+    ss<<" "<<sm.lines[sm.num_lines-1]<<" ";
+    ss<<" "<<"\\\\";
 }
 else if(sm.command == c[3])
 {
