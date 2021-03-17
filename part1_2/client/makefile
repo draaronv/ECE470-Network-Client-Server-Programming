@@ -9,6 +9,9 @@ server:server.cpp server_marshal.h
 client:client.cpp client_marshal.h
 	g++ client.cpp -o client
 
+client2:client2.cpp client_marshal.h
+	g++ -g client2.cpp -o client2
+
 test_server: server server.cpp server_marshal.h
 	@./server "START 2"
 	@./server "CHOICE 5"
@@ -20,9 +23,6 @@ test_server: server server.cpp server_marshal.h
 	@./server "END" "Ending Connection" "2" " 1. Option 1 " " 2. Option 2 "
 	@./server "LIST" "This are the options" "3" " 1. Option 1 " " 2. Option 2 " " 3. Option 3 "
 	@./server "LIST" "This are the options" "2" " 1. Option 1 " " 2. Option 2 "
-
-
-
 
 
 test_client: client client.cpp client_marshal.h
@@ -41,6 +41,5 @@ test_client: client client.cpp client_marshal.h
 	@./client "END" "1"
 	@./client "ERROR" "1"
 clean:
-	rm server client
-
+	rm server client client2
 

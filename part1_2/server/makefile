@@ -4,6 +4,8 @@ all:server  server_marshal.h
 server:server.cpp server_marshal.h
 	g++ server.cpp -o server
 
+server2:server2.cpp server_marshal.h
+	g++ server2.cpp -o server2
 test_server: server server.cpp server_marshal.h
 	@./server "START 2"
 	@./server "CHOICE 5"
@@ -17,6 +19,5 @@ test_server: server server.cpp server_marshal.h
 	@./server "LIST" "This are the options" "2" " 1. Option 1 " " 2. Option 2 "
 	@./server "LIST" "This are the options" "1" " 1. Option 1 "
 clean:
-	rm server
-
+	rm server server2
 

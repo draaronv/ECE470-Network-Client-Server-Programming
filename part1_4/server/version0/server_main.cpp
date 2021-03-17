@@ -3,7 +3,6 @@
 #include <vector>
 #include "server_marshal.h"
 #include "tcp_server2.h"
-#include "server_menus.h"
 using namespace std;
 
 int main()
@@ -27,7 +26,6 @@ exit(EXIT_SUCCESS);
 samples_serverMessage temp;
 server_message userServMess;
 server_message passServMess;
-//Username
 userServMess=temp.create_userNameResponse();
 string userMessage=marshal(userServMess);
 //Password
@@ -49,16 +47,12 @@ while(true)
     tempPassMessage=unmarshal(userInput);
     if(tempPassMessage.decision==45 && tempUserMessage.decision==7)
     {
-        int mmenu=main_menu()
-        if(mmenu ==-1)
-        {
-            break;
-        }
-        else if(mmenu==0)
-        {
-        }
+        cout<<"You logged in"<<endl;
+        test.closeSockets();
+        break;
     }
 }
 
 return 0;
 }
+
