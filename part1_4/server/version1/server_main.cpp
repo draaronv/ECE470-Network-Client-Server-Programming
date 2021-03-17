@@ -27,7 +27,6 @@ exit(EXIT_SUCCESS);
 samples_serverMessage temp;
 server_message userServMess;
 server_message passServMess;
-//Username
 userServMess=temp.create_userNameResponse();
 string userMessage=marshal(userServMess);
 //Password
@@ -49,16 +48,16 @@ while(true)
     tempPassMessage=unmarshal(userInput);
     if(tempPassMessage.decision==45 && tempUserMessage.decision==7)
     {
-        int mmenu=main_menu()
-        if(mmenu ==-1)
+        int mmMenu=mainMenu(test);
+        if(mmMenu==-1)
         {
-            break;
-        }
-        else if(mmenu==0)
-        {
+        test.closeSockets();
+
+        break;
         }
     }
 }
 
 return 0;
 }
+

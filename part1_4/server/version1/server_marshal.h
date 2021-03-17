@@ -1,5 +1,5 @@
 #ifndef _SERVER_MARSHAL_H_
-#define _SERVER_MARSHAL_H
+#define _SERVER_MARSHAL_H_
 #include <iostream>
 #include <string>
 #include <stdio.h>
@@ -28,6 +28,26 @@ class server_message
         int num_lines;
 };
 
+struct samples_serverMessage
+{
+    server_message userNameResponse;
+    server_message passWordResponse;
+    server_message create_userNameResponse()
+    {
+        userNameResponse.command="USER";
+        userNameResponse.messa="Please Enter your username:";
+        return userNameResponse;
+    };
+
+    server_message create_passWordResponse()
+    {
+        passWordResponse.command="PASS";
+        passWordResponse.messa="Please Enter your password:";
+        return passWordResponse;
+    };
+};
+
+
 client_message unmarshal(string message)
 {
     string command;
@@ -47,11 +67,11 @@ string result;
 string c[5]={"USER","PASS","LIST","ERROR","END"};
 if(sm.command == c[0])
 {
-    ss<<sm.command<<" "<<sm.messa<<" "<<"\\";
+    ss<<sm.command<<" "<<sm.messa<<" ";
 }
 else if(sm.command == c[1])
 {
-    ss<<sm.command<<" "<<sm.messa<<" "<<"\\";
+    ss<<sm.command<<" "<<sm.messa<<" ";
 }
 else if(sm.command == c[2])
 {
