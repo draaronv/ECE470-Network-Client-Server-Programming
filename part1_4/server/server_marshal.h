@@ -28,6 +28,25 @@ class server_message
         int num_lines;
 };
 
+struct samples_serverMessage
+{
+    server_message userNameResponse;
+    server_message passWordResponse;
+    server_message create_userNameResponse()
+    {
+        userNameResponse.command="USER";
+
+        userNameResponse.messa="Please Enter your username:";
+        return userNameResponse;
+    }
+    server_message create_passWordResponse()
+    {
+        passWordResponse.command="START";
+        passWordResponse.messa="Please Enter your password:";
+        return passWordResponse;
+    }
+};
+
 client_message unmarshal(string message)
 {
     string command;
