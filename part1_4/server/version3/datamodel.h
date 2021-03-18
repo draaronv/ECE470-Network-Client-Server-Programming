@@ -34,9 +34,23 @@ class rooms
 
 class alarmSystem
 {
+    private:
+        bool status;
     public:
+        alarmSystem()
+        {
+            status=true;
+        };
         string name;
         int code;
+        void changeStatus()
+        {
+            status=!status;
+        }
+        bool getStatus()
+        {
+            return status;
+        };
 };
 
 
@@ -83,6 +97,7 @@ void home::setDeviceList()
 home::home()
 {
     setDeviceList();
+    //Setting up alarm system
 }
 #endif
 

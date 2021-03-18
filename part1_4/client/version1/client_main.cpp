@@ -33,7 +33,6 @@ int main()
             break;
         }
         //Ask the user for input
-        cout<<"Please enter only integer values"<<endl;
         cin>>userInput;
         client_message userChoice;
         userChoice.options="CHOICE";

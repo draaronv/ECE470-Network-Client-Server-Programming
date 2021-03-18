@@ -14,11 +14,109 @@ server_message devicesLists()
     temp.push_back("4. Return to the Previous Menu");
     server_message deviceListMess;
     deviceListMess.command="LIST";
+    deviceListMess.messa="List of Devices";
     deviceListMess.num_lines=temp.size();
     deviceListMess.lines=temp;
     return deviceListMess;
 }
+server_message alarmStatus(int option1)
+{
+    vector<string> temp;
+    string tempAlarm;
+    bool alarmStatus=sample.al.getStatus();
+    if(alarmStatus)
+    {
+        tempAlarm="ON";
+    }
+    else
+    {
+        tempAlarm="OFF";
+    }
+    string alarmSt="Alarm";
+    string temp1;
+    stringstream ss;
+    int number=1;
+    ss<<number<<". "<<alarmSt<<number<<":"<<tempAlarm;
+    getline(ss,temp1);
+    temp.push_back(temp1);
+    if(option1==1)
+    {
+        temp.push_back("2. Change the status");
+    }
+    temp.push_back("4. Return to the Previous Menu");
+    server_message alarmStatusMessage;
+    alarmStatusMessage.command="LIST";
+    alarmStatusMessage.num_lines=temp.size();
+    alarmStatusMessage.messa="Check Status: Alarm";
+    alarmStatusMessage.lines=temp;
+    return alarmStatusMessage;
+}
+//Status
+//Alarm Menu
+//
+//
+//
 
+int alarmMenu(server test,int option1)
+{
+    string userInput;
+    server_message alarmMenuMess;
+    while(true)
+    {
+        alarmMenuMess=alarmStatus(option1);
+        string maAlarmMenu=marshal(alarmMenuMess);
+        test.send_message(maAlarmMenu);
+        userInput=test.receive_message();
+        client_message tempMessage;
+        tempMessage=unmarshal(userInput);
+        if(tempMessage.decision==4)
+        {
+            break;
+        }
+        else if(tempMessage.decision==2)
+        {
+            sample.al.changeStatus();
+        }
+        else
+        {
+        }
+    }
+    return -1;
+}
+//Room Menu
+//
+//
+//
+
+
+//Locks
+//
+//
+//
+
+//Change
+//Alarm Menu
+//
+//
+//
+
+
+//Room Menu
+//
+//
+//
+
+
+//Locks
+//
+//
+//
+
+
+//Check Status Menu
+//
+//
+//
 int checkStatusMenu(server test)
 {
      //Temporary
@@ -56,8 +154,8 @@ int checkStatusMenu(server test)
         tempMessage=unmarshal(userInput);
         if(tempMessage.decision==1)
         {
-            test.send_message(maOptions1);
-            userInput=test.receive_message();
+            int aaAlarmSt;
+            aaAlarmSt=alarmMenu(test,0);
         }
         else if(tempMessage.decision==2)
         {
@@ -83,6 +181,12 @@ int checkStatusMenu(server test)
 
 }
 
+
+
+//Change Status Menu
+//
+//
+//
 int changeStatusMenu(server test)
 {
     //Temporary
@@ -120,8 +224,9 @@ int changeStatusMenu(server test)
         tempMessage=unmarshal(userInput);
         if(tempMessage.decision==1)
         {
-            test.send_message(maOptions1);
-            userInput=test.receive_message();
+            int aaAlarmSt;
+            aaAlarmSt=alarmMenu(test,1);
+
         }
         else if(tempMessage.decision==2)
         {
@@ -146,6 +251,12 @@ int changeStatusMenu(server test)
     return -1;
 }
 
+
+
+//Main Menu
+//
+//
+//
 int mainMenu(server test)
 {
     string maMenu;
