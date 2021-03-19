@@ -70,11 +70,7 @@ server_message unmarshal(string message)
         int i=0;
         while(ss>>temp)
         {
-            if(res.message=="\\\\")
-            {
-                break;
-            }
-            else if(temp=="\\")
+            if(temp=="\\")
             {
                 i++;
             }
