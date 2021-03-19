@@ -106,11 +106,7 @@ int client::send_message(string message)
 
 string client::receive_message()
 {
-    FILE *stream;
-    char *bp;
-    size_t size;
     char buffer[MAXBUFFERLEN];
-    stream=open_memstream(&bp,&size);
     receiving=recv(sockfd,(char*)buffer,MAXBUFFERLEN,0);
     if(receiving==-1)
     {
@@ -118,11 +114,10 @@ string client::receive_message()
         exit(EXIT_FAILURE);
         close(sockfd);
         close(sockfd);
-    }
-    fwrite(buffer+1,sizeof(char),buffer[0],stream);
-    fflush(stream);
-    string temp(bp);
+    } 
+    string temp(buffer);
     return temp;
+    memset(buffer,'\0',MAXBUFFERLEN);
 }
 
 int client::closeSockets()
