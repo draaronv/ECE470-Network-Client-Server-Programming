@@ -163,45 +163,70 @@ int lightMenu(server test,int option,int type)
 
     //Temporary
     string userInput;
-    server_message lightMenuMess;
     while(true)
     {
-        lightMenuMess=lightList(option,type);
+        server_message lightMenuMess=lightList(option,type);
         string maLightMenuMess=marshal(lightMenuMess);
         int tempNum=sample.ro.house_room[option-1].numLights;
         test.send_message(maLightMenuMess);
         userInput=test.receive_message();
         client_message tempMessage;
         tempMessage=unmarshal(userInput);
-        if(tempMessage.decision==(tempNum+2))
+        if(type==0)
         {
-            break;
+            if(tempMessage.decision==(tempNum+1))
+            {
+                break;
+            }
+            else if(tempMessage.decision==1)
+            {
+                test.send_message(maOptions1);
+                test.receive_message();
+            }
+            else if(tempMessage.decision==2)
+            {
+                test.send_message(maOptions2);
+                test.receive_message();
+            }
+            else if(tempMessage.decision==3)
+            {
+                test.send_message(maOptions3);
+                test.receive_message();
+            }
+            else if(tempMessage.decision==4)
+            {
+                test.send_message(maOptions4);
+                test.receive_message();
+            }
         }
-        else if(tempMessage.decision==(tempNum+1))
+        else
         {
-            sample.ro.house_room[option-1].changeAllLights();
+            if(tempMessage.decision==(tempNum+2))
+            {
+                break;
+            }
+            else if(tempMessage.decision==(tempNum+1))
+            {
+                sample.ro.house_room[option-1].changeAllLights();
+            }
+            else if(tempMessage.decision==1)
+            {
+                sample.ro.house_room[option-1].changeSingleLights(0);
+            }
+            else if(tempMessage.decision==2)
+            {
+                sample.ro.house_room[option-1].changeSingleLights(1);
+            }
+            else if(tempMessage.decision==3)
+            {
+                sample.ro.house_room[option-1].changeSingleLights(2);
+            }
+            else if(tempMessage.decision==4)
+            { 
+                sample.ro.house_room[option-1].changeSingleLights(3);
+            }
         }
-        else if(tempMessage.decision==1)
-        {
-            test.send_message(maOptions1);
-            test.receive_message();
-        }
-        else if(tempMessage.decision==2)
-        {
-            test.send_message(maOptions2);
-            test.receive_message();
-        }
-        else if(tempMessage.decision==3)
-        {
-            test.send_message(maOptions3);
-            test.receive_message();
-        }
-        else if(tempMessage.decision==4)
-        {
-            test.send_message(maOptions3);
-            test.receive_message();
-        }
-
+        
     }
 return -1;
 }

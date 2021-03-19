@@ -40,6 +40,7 @@ class room
         room(string roomMa ,int ro);
         void setLightList();
         void changeAllLights();
+        void changeSingleLights(int option);
 };
 
 void room::changeAllLights()
@@ -48,10 +49,18 @@ void room::changeAllLights()
     {
         lights[i].status=!lights[i].status;
     }
+    setLightList();
+}
+
+void room::changeSingleLights(int option)
+{
+    lights[option].status=!lights[option].status;
+    setLightList();
 }
 
 void room::setLightList()
 {
+    vector<string> tempLight;
     for(unsigned int i=0;i<lights.size();i++)
     {
         stringstream ss;
@@ -67,8 +76,9 @@ void room::setLightList()
         }
         ss<<lights[i].name<<" : "<<lightSta;
         getline(ss,temp);
-        lightsList.push_back(temp);
+        tempLight.push_back(temp);
     }
+    lightsList=tempLight;
 }
 
 
