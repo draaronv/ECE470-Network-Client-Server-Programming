@@ -186,14 +186,88 @@ class lock
     public:
         string name;
         int code;
+        bool status;
+    lock();
+    lock(string nam,bool stat,int codd); 
 };
 
+lock::lock()
+{
+    name="Main";
+    code=12345;
+    status=true;
+}
+
+lock::lock(string nam,bool stat,int codd)
+{
+    name=nam;
+    code=codd;
+    status=stat;
+}
 
 class locks
 {
     public:
         vector<lock> llock;
+        vector <string> locksList;
+        int numLocks;
+        locks();
+        void setLocksList();
+        void changeAllLocks();
+        void changeSingleLock(int option);
 };
+
+void locks::changeAllLocks()
+{
+    for(unsigned int i=0;i<llock.size();i++)
+    {
+        llock[i].status=!llock[i].status;
+    }
+    setLocksList();
+}
+
+void locks::changeSingleLock(int option)
+{
+    llock[option].status=!llock[option].status;
+    setLocksList();
+}
+
+locks::locks()
+{
+    lock ll1("1. Main Door",true,3441);
+    lock ll2("2. Back Door",true,1234);
+    lock ll3("3. Left Door",true,7812);
+    lock ll4("4. Right door",true,2232);
+    llock.push_back(ll1);
+    llock.push_back(ll2);
+    llock.push_back(ll3);
+    llock.push_back(ll4);
+    numLocks=4;
+    setLocksList();
+}
+
+void locks::setLocksList()
+{
+   vector<string> tempLock;
+    for(unsigned int i=0;i<llock.size();i++)
+    {
+        stringstream ss;
+        string lightSta;
+        string temp;
+        if(llock[i].status)
+        {
+            lightSta="ON";
+        }
+        else
+        {
+            lightSta="OFF";
+        }
+        ss<<llock[i].name<<" : "<<lightSta;
+        getline(ss,temp);
+        tempLock.push_back(temp);
+    }
+    locksList=tempLock;
+}
 
 class home
 {
