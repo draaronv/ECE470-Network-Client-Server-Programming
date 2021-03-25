@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.24)  19 MAR 2021 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.24)  19 MAR 2021 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ece470_project1_part3.tex
-(./ece470_project1_part3.tex
+**ece470_project1_final_report.tex
+(./ece470_project1_final_report.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1607,8 +1607,13 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
-) (./ece470_project1_part3.aux)
-\openout1 = `ece470_project1_part3.aux'.
+) (./ece470_project1_final_report.aux
+
+LaTeX Warning: Label `fig:screenshot-from-2021-03-02-22-17-39' multiply defined
+.
+
+)
+\openout1 = `ece470_project1_final_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -1625,8 +1630,7 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 \AtBeginShipoutBox=\box77
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count301
 \scratchdimen=\dimen187
@@ -1693,9 +1697,9 @@ LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
 
-(./ece470_project1_part3.out) (./ece470_project1_part3.out)
+(./ece470_project1_final_report.out) (./ece470_project1_final_report.out)
 \@outlinefile=\write3
-\openout3 = `ece470_project1_part3.out'.
+\openout3 = `ece470_project1_final_report.out'.
 
 \c@lstlisting=\count308
 
@@ -1749,214 +1753,166 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ece470_project1_part3.t
-oc [2
-
-])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ece470_project1_final_r
+eport.toc)
 \tf@toc=\write4
-\openout4 = `ece470_project1_part3.toc'.
+\openout4 = `ece470_project1_final_report.toc'.
 
 
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+[2
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
- [4
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+ [3
 
 ]
-<data_model.jpg, id=243, 1185.42876pt x 721.69624pt>
+<data_model.jpg, id=194, 963.6pt x 722.7pt>
 File: data_model.jpg Graphic file (type jpg)
 <use data_model.jpg>
-Package pdftex.def Info: data_model.jpg  used on input line 103.
-(pdftex.def)             Requested size: 592.71292pt x 360.84724pt.
-
-Overfull \hbox (86.82292pt too wide) in paragraph at lines 103--104
- [][] 
- []
-
-[5]
-<StoryBoard.jpeg, id=248, 1111.2717pt x 580.3281pt>
+Package pdftex.def Info: data_model.jpg  used on input line 101.
+(pdftex.def)             Requested size: 481.79883pt x 361.3491pt.
+ [4 <./data_model.jpg>]
+<StoryBoard.jpeg, id=200, 1111.2717pt x 580.3281pt>
 File: StoryBoard.jpeg Graphic file (type jpg)
 <use StoryBoard.jpeg>
-Package pdftex.def Info: StoryBoard.jpeg  used on input line 118.
+Package pdftex.def Info: StoryBoard.jpeg  used on input line 116.
 (pdftex.def)             Requested size: 555.63449pt x 290.16333pt.
 
-Overfull \hbox (49.74449pt too wide) in paragraph at lines 118--119
+Overfull \hbox (49.74449pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-[6 <./data_model.jpg>]
-<server_state_diagram.jpeg, id=254, 795.2109pt x 1167.8832pt>
+<server_state_diagram.jpeg, id=201, 795.2109pt x 1167.8832pt>
 File: server_state_diagram.jpeg Graphic file (type jpg)
 <use server_state_diagram.jpeg>
-Package pdftex.def Info: server_state_diagram.jpeg  used on input line 127.
+Package pdftex.def Info: server_state_diagram.jpeg  used on input line 125.
 (pdftex.def)             Requested size: 397.60448pt x 583.94017pt.
- [7 <./StoryBoard.jpeg>] [8 <./server_state_diagram.jpeg>]
-<Client_State_Diagram.jpeg, id=265, 523.9575pt x 497.6994pt>
+[5 <./StoryBoard.jpeg>] [6 <./server_state_diagram.jpeg>]
+<Client_State_Diagram.jpeg, id=211, 523.9575pt x 497.6994pt>
 File: Client_State_Diagram.jpeg Graphic file (type jpg)
 <use Client_State_Diagram.jpeg>
-Package pdftex.def Info: Client_State_Diagram.jpeg  used on input line 134.
-(pdftex.def)             Requested size: 366.76775pt x 348.3872pt.
- [9 <./Client_State_Diagram.jpeg>]
-<Examples.jpeg, id=270, 632.3625pt x 564.6696pt>
+Package pdftex.def Info: Client_State_Diagram.jpeg  used on input line 132.
+(pdftex.def)             Requested size: 261.9781pt x 248.84909pt.
+<Examples.jpeg, id=212, 632.3625pt x 564.6696pt>
 File: Examples.jpeg Graphic file (type jpg)
 <use Examples.jpeg>
-Package pdftex.def Info: Examples.jpeg  used on input line 163.
-(pdftex.def)             Requested size: 442.65074pt x 395.26602pt.
- [10 <./Examples.jpeg>]
-<testing_change_alarmStatus.png, id=276, 247.92625pt x 76.285pt>
-File: testing_change_alarmStatus.png Graphic file (type png)
-<use testing_change_alarmStatus.png>
-Package pdftex.def Info: testing_change_alarmStatus.png  used on input line 194
-.
-(pdftex.def)             Requested size: 173.54718pt x 53.39912pt.
-<testing_changealarmstatus_pin.png, id=277, 266.9975pt x 202.7575pt>
-File: testing_changealarmstatus_pin.png Graphic file (type png)
-<use testing_changealarmstatus_pin.png>
-Package pdftex.def Info: testing_changealarmstatus_pin.png  used on input line 
-200.
-(pdftex.def)             Requested size: 186.89696pt x 141.92928pt.
-<testing_change_locksstatus.png, id=278, 319.1925pt x 150.5625pt>
-File: testing_change_locksstatus.png Graphic file (type png)
-<use testing_change_locksstatus.png>
-Package pdftex.def Info: testing_change_locksstatus.png  used on input line 206
-.
-(pdftex.def)             Requested size: 223.43321pt x 105.39302pt.
- [11 <./testing_change_alarmStatus.png>]
-<testing_change_locksstatus_pin.png, id=296, 332.24126pt x 348.30125pt>
-File: testing_change_locksstatus_pin.png Graphic file (type png)
-<use testing_change_locksstatus_pin.png>
-Package pdftex.def Info: testing_change_locksstatus_pin.png  used on input line
- 212.
-(pdftex.def)             Requested size: 232.56728pt x 243.8092pt.
-<testing_changestatus_allights.png, id=297, 281.05pt x 254.9525pt>
-File: testing_changestatus_allights.png Graphic file (type png)
-<use testing_changestatus_allights.png>
-Package pdftex.def Info: testing_changestatus_allights.png  used on input line 
-218.
-(pdftex.def)             Requested size: 196.73364pt x 178.46552pt.
-<testing_change_status_lights.png, id=298, 280.04625pt x 239.89626pt>
-File: testing_change_status_lights.png Graphic file (type png)
-<use testing_change_status_lights.png>
-Package pdftex.def Info: testing_change_status_lights.png  used on input line 2
-24.
-(pdftex.def)             Requested size: 196.03102pt x 167.92622pt.
- [12 <./testing_changealarmstatus_pin.png> <./testing_change_locksstatus.png> <
-./testing_change_locksstatus_pin.png>]
-<"testing_changestatus_single light".png, id=307, 292.09125pt x 274.02374pt>
-File: "testing_changestatus_single light".png Graphic file (type png)
-<use "testing_changestatus_single light".png>
-Package pdftex.def Info: "testing_changestatus_single light".png  used on input
- line 230.
-(pdftex.def)             Requested size: 204.46246pt x 191.8153pt.
-<"testing_check alarm".png, id=308, 295.1025pt x 334.24875pt>
-File: "testing_check alarm".png Graphic file (type png)
-<use "testing_check alarm".png>
-Package pdftex.def Info: "testing_check alarm".png  used on input line 236.
-(pdftex.def)             Requested size: 206.57033pt x 233.97252pt.
-<testing_checkbedroom_lights.png, id=309, 254.9525pt x 109.40875pt>
-File: testing_checkbedroom_lights.png Graphic file (type png)
-<use testing_checkbedroom_lights.png>
-Package pdftex.def Info: testing_checkbedroom_lights.png  used on input line 24
-2.
-(pdftex.def)             Requested size: 178.46552pt x 76.58559pt.
- [13 <./testing_changestatus_allights.png> <./testing_change_status_lights.png>
- <./testing_changestatus_single light.png>]
-<testing_checklock.png, id=318, 297.11pt x 239.89626pt>
-File: testing_checklock.png Graphic file (type png)
-<use testing_checklock.png>
-Package pdftex.def Info: testing_checklock.png  used on input line 248.
-(pdftex.def)             Requested size: 207.97557pt x 167.92622pt.
-<testing_ending_connection.png, id=319, 170.6375pt x 100.375pt>
-File: testing_ending_connection.png Graphic file (type png)
-<use testing_ending_connection.png>
-Package pdftex.def Info: testing_ending_connection.png  used on input line 254.
-
-(pdftex.def)             Requested size: 119.44542pt x 70.26201pt.
-<testing_lightRoom.png, id=320, 247.92625pt x 116.435pt>
-File: testing_lightRoom.png Graphic file (type png)
-<use testing_lightRoom.png>
-Package pdftex.def Info: testing_lightRoom.png  used on input line 260.
-(pdftex.def)             Requested size: 173.54718pt x 81.50394pt.
- [14 <./testing_check alarm.png> <./testing_checkbedroom_lights.png> <./testing
-_checklock.png>]
-<testing_serverconnection.png, id=328, 913.4125pt x 79.29625pt>
-File: testing_serverconnection.png Graphic file (type png)
-<use testing_serverconnection.png>
-Package pdftex.def Info: testing_serverconnection.png  used on input line 266.
-(pdftex.def)             Requested size: 456.70514pt x 39.64801pt.
-<testing_serverlogin.png, id=329, 899.36pt x 88.33pt>
-File: testing_serverlogin.png Graphic file (type png)
-<use testing_serverlogin.png>
-Package pdftex.def Info: testing_serverlogin.png  used on input line 272.
-(pdftex.def)             Requested size: 449.6789pt x 44.16489pt.
-<testing_Succesful_login.png, id=330, 911.405pt x 209.78375pt>
-File: testing_Succesful_login.png Graphic file (type png)
-<use testing_Succesful_login.png>
-Package pdftex.def Info: testing_Succesful_login.png  used on input line 278.
-(pdftex.def)             Requested size: 455.70139pt x 104.8916pt.
-<testing_userName.png, id=331, 939.51pt x 117.43875pt>
-File: testing_userName.png Graphic file (type png)
-<use testing_userName.png>
-Package pdftex.def Info: testing_userName.png  used on input line 284.
-(pdftex.def)             Requested size: 469.75385pt x 58.71922pt.
- [15 <./testing_ending_connection.png> <./testing_lightRoom.png> <./testing_ser
-verconnection.png> <./testing_serverlogin.png> <./testing_Succesful_login.png> 
-<./testing_userName.png>]
+Package pdftex.def Info: Examples.jpeg  used on input line 161.
+(pdftex.def)             Requested size: 316.18048pt x 282.3341pt.
+ [7 <./Client_State_Diagram.jpeg>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [16] [17]
-[18] [19] [20] [21] [22] [23]
-<"../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png, id=83
-0, 898.35625pt x 635.37375pt>
-File: "../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png G
-raphic file (type png)
-<use "../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45".png>
-Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
--02 21-02-45".png  used on input line 806.
-(pdftex.def)             Requested size: 628.8451pt x 444.75859pt.
+ [8 <./Examples.jpeg>] [9] [10] [11]
 
-Overfull \hbox (122.9551pt too wide) in paragraph at lines 806--807
- [][] 
- []
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 21-02-45".pdf' not found: using draft setting.
 
-[24] [25 <../../../../../../../Pictures/Screenshot from 2021-03-02 21-02-45.png
->] [26] [27]
-<"../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png, id=10
-30, 1142.2675pt x 645.41125pt>
-File: "../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png G
-raphic file (type png)
-<use "../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31".png>
-Package pdftex.def Info: "../../../../../../../Pictures/Screenshot from 2021-03
--02 21-20-31".png  used on input line 986.
-(pdftex.def)             Requested size: 456.89891pt x 258.15993pt.
- [28] [29 <../../../../../../../Pictures/Screenshot from 2021-03-02 21-20-31.pn
-g>] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
-[42] [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1867.
- [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1867.
- (./ece470_project1_part3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1867.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1867.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 ...res/Screenshot from 2021-03-02 21-02-45"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package rerunfilecheck Info: File `ece470_project1_part3.out' has not changed.
-(rerunfilecheck)             Checksum: FAB8C22D0835B1CA7BAED1984E0E7F18;2680.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1867.
+[12] [13] [14]
+
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 21-20-31".pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.589 ...res/Screenshot from 2021-03-02 21-20-31"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[15] [16] [17] [18] [19]
+
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 22-17-39".pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.865 ...res/Screenshot from 2021-03-02 22-17-39"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 22-59-09".pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.871 ...res/Screenshot from 2021-03-02 22-59-09"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[20] [21]
+
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 22-17-39".pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.945 ...res/Screenshot from 2021-03-02 22-17-39"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package pdftex.def Error: File `"\unhbox\voidb@x \penalty \@M \ {}/Pictures/S
+creenshot from 2021-03-02 22-58-51".pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.951 ...res/Screenshot from 2021-03-02 22-58-51"}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 955.
+[22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 955.
+ (./ece470_project1_final_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 955.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 955.
+Package rerunfilecheck Info: File `ece470_project1_final_report.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: E8A75C5AF496319A4A6047D51903CE85;2143.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 955.
  ) 
 Here is how much of TeX's memory you used:
- 23309 strings out of 492982
- 397433 string characters out of 6134896
- 613295 words of memory out of 5000000
- 24956 multiletter control sequences out of 15000+600000
- 539431 words of font info for 70 fonts, out of 8000000 for 9000
+ 22118 strings out of 492982
+ 376878 string characters out of 6134896
+ 617330 words of memory out of 5000000
+ 24661 multiletter control sequences out of 15000+600000
+ 539497 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,58p,10433b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,58p,10440b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/tex
@@ -1964,11 +1920,12 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt8.pfb>
-Output written on ece470_project1_part3.pdf (44 pages, 1652779 bytes).
+/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt8.pfb>
+Output written on ece470_project1_final_report.pdf (22 pages, 1345619 bytes).
 PDF statistics:
- 2381 PDF objects out of 2487 (max. 8388607)
- 2281 compressed objects within 23 object streams
- 1650 named destinations out of 1728 (max. 500000)
- 9676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 1149 compressed objects within 12 object streams
+ 776 named destinations out of 1000 (max. 500000)
+ 10026 words of extra memory for PDF output out of 12000 (max. 10000000)
 

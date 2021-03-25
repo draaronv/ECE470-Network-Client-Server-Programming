@@ -1,34 +1,43 @@
 \BOOKMARK [1][-]{section.1}{Project Description}{}% 1
-\BOOKMARK [1][-]{section.2}{Specifications}{}% 2
-\BOOKMARK [1][-]{section.3}{Assumptions}{}% 3
-\BOOKMARK [1][-]{section.4}{Initial Design}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Business Logic}{section.4}% 5
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Basic Operations}{subsection.4.1}% 6
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Storyboard}{subsection.4.1}% 7
-\BOOKMARK [2][-]{subsection.4.2}{Sever state chart}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.3}{Client State Chart}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.4}{Application Protocol Design}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{Example}{}% 11
-\BOOKMARK [1][-]{section.6}{Data model}{}% 12
-\BOOKMARK [1][-]{section.7}{Message Protocol}{}% 13
-\BOOKMARK [2][-]{subsection.7.1}{Client Marshal}{section.7}% 14
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Header file}{subsection.7.1}% 15
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Test File}{subsection.7.1}% 16
-\BOOKMARK [3][-]{subsubsection.7.1.3}{Makefile}{subsection.7.1}% 17
-\BOOKMARK [2][-]{subsection.7.2}{Results}{section.7}% 18
-\BOOKMARK [2][-]{subsection.7.3}{Server Marshal}{section.7}% 19
-\BOOKMARK [3][-]{subsubsection.7.3.1}{Header File}{subsection.7.3}% 20
-\BOOKMARK [3][-]{subsubsection.7.3.2}{Test program}{subsection.7.3}% 21
-\BOOKMARK [3][-]{subsubsection.7.3.3}{Makefile}{subsection.7.3}% 22
-\BOOKMARK [3][-]{subsubsection.7.3.4}{Result}{subsection.7.3}% 23
-\BOOKMARK [1][-]{section.8}{TCP Protocols}{}% 24
-\BOOKMARK [2][-]{subsection.8.1}{Client}{section.8}% 25
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Header File}{subsection.8.1}% 26
-\BOOKMARK [3][-]{subsubsection.8.1.2}{Test Program}{subsection.8.1}% 27
-\BOOKMARK [3][-]{subsubsection.8.1.3}{Makefile}{subsection.8.1}% 28
-\BOOKMARK [3][-]{subsubsection.8.1.4}{Results}{subsection.8.1}% 29
-\BOOKMARK [2][-]{subsection.8.2}{Client}{section.8}% 30
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Header File}{subsection.8.2}% 31
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Test Program}{subsection.8.2}% 32
-\BOOKMARK [3][-]{subsubsection.8.2.3}{Makefile}{subsection.8.2}% 33
-\BOOKMARK [3][-]{subsubsection.8.2.4}{Results}{subsection.8.2}% 34
+\BOOKMARK [1][-]{section.2}{Project Purpose}{}% 2
+\BOOKMARK [1][-]{section.3}{Project Goals}{}% 3
+\BOOKMARK [1][-]{section.4}{Business Requirement}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Assumptions}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Constraints}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Deliverable}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Design}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Data Model}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Business Logic}{section.5}% 10
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Basic Operations}{subsection.5.2}% 11
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Storyboard}{subsection.5.2}% 12
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Sever state chart}{subsection.5.2}% 13
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Client State Chart}{subsection.5.2}% 14
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Application Protocol Design}{subsection.5.2}% 15
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Example}{subsection.5.2}% 16
+\BOOKMARK [1][-]{section.6}{Implementation}{}% 17
+\BOOKMARK [1][-]{section.7}{Testing}{}% 18
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 19
+\BOOKMARK [1][-]{section.9}{Appendix-Code}{}% 20
+\BOOKMARK [2][-]{subsection.9.1}{Data model}{section.9}% 21
+\BOOKMARK [2][-]{subsection.9.2}{Message Protocol}{section.9}% 22
+\BOOKMARK [2][-]{subsection.9.3}{Client Marshal}{section.9}% 23
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Header file}{subsection.9.3}% 24
+\BOOKMARK [3][-]{subsubsection.9.3.2}{Test File}{subsection.9.3}% 25
+\BOOKMARK [3][-]{subsubsection.9.3.3}{Makefile}{subsection.9.3}% 26
+\BOOKMARK [2][-]{subsection.9.4}{Results}{section.9}% 27
+\BOOKMARK [2][-]{subsection.9.5}{Server Marshal}{section.9}% 28
+\BOOKMARK [3][-]{subsubsection.9.5.1}{Header File}{subsection.9.5}% 29
+\BOOKMARK [3][-]{subsubsection.9.5.2}{Test program}{subsection.9.5}% 30
+\BOOKMARK [3][-]{subsubsection.9.5.3}{Makefile}{subsection.9.5}% 31
+\BOOKMARK [3][-]{subsubsection.9.5.4}{Result}{subsection.9.5}% 32
+\BOOKMARK [1][-]{section.10}{TCP Protocols}{}% 33
+\BOOKMARK [2][-]{subsection.10.1}{Client}{section.10}% 34
+\BOOKMARK [3][-]{subsubsection.10.1.1}{Header File}{subsection.10.1}% 35
+\BOOKMARK [2][-]{subsection.10.2}{Server}{section.10}% 36
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Header File}{subsection.10.2}% 37
+\BOOKMARK [1][-]{section.11}{Menus}{}% 38
+\BOOKMARK [2][-]{subsection.11.1}{Client}{section.11}% 39
+\BOOKMARK [3][-]{subsubsection.11.1.1}{Client Main}{subsection.11.1}% 40
+\BOOKMARK [2][-]{subsection.11.2}{Server}{section.11}% 41
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Server Main}{subsection.11.2}% 42
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Server Menus}{subsection.11.2}% 43
